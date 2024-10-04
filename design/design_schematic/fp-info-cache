@@ -1,4 +1,4 @@
-25017540548408466
+25020996537709693
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -89109,6 +89109,20 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SamacSys_Parts
+NE555DR
+D (R-PDSO-G8)
+Integrated Circuit
+0
+8
+8
+SamacSys_Parts
+XC9290A07E0RG
+WLP-5-08
+Integrated Circuit
+0
+5
+5
 ScottoKeebs_Alps
 Alps
 Alps/keyswitch
