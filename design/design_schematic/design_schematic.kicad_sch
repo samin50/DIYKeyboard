@@ -3891,6 +3891,247 @@
 				)
 			)
 		)
+		(symbol "SamacSys_Parts:PEC11L-4015F-S0015"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 21.59 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "PEC11L-4015F-S0015"
+				(at 21.59 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "PEC11L4015FS0015"
+				(at 21.59 -87.3 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.bourns.com/PDFs/pec11l.pdf"
+				(at 21.59 -187.3 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Rotary Encoder Mechanical 15 Quadrature (Incremental) Vertical 	 6mm Dia Flatted End"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "20"
+				(at 21.59 -387.3 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "652-PEC11L4015FS0015"
+				(at 21.59 -487.3 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/PEC11L-4015F-S0015?qs=Zq5ylnUbLm7G6EFrj3V7Lw%3D%3D"
+				(at 21.59 -587.3 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Bourns"
+				(at 21.59 -687.3 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "PEC11L-4015F-S0015"
+				(at 21.59 -787.3 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "PEC11L-4015F-S0015_1_1"
+				(rectangle
+					(start 5.08 10.16)
+					(end 20.32 -12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 10.16 15.24 270)
+					(length 5.08)
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 15.24 270)
+					(length 5.08)
+					(name "NO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -17.78 90)
+					(length 5.08)
+					(name "CCW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -17.78 90)
+					(length 5.08)
+					(name "WIPER"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -17.78 90)
+					(length 5.08)
+					(name "CW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 0 180)
+					(length 5.08)
+					(name "MH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "SamacSys_Parts:XC9291B33D0R-G"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4087,6 +4328,144 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ScottoKeebs:OLED_128x32"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "OLED_128x32"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "ScottoKeebs_Components:OLED_128x32"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "OLED_128x32_0_1"
+				(rectangle
+					(start 0 5.08)
+					(end 15.24 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "OLED_128x32_1_1"
+				(pin power_in line
+					(at -2.54 -3.81 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -1.27 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -2.54 1.27 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 3.81 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4793,6 +5172,16 @@
 		)
 		(uuid "57921242-c615-45bc-9d68-208562fbb92a")
 	)
+	(polyline
+		(pts
+			(xy 128.27 227.33) (xy 365.76 227.33)
+		)
+		(stroke
+			(width 1)
+			(type dash)
+		)
+		(uuid "59d2b60f-0b94-4724-a94a-00e3de8481ef")
+	)
 	(wire
 		(pts
 			(xy 40.64 60.96) (xy 40.64 59.69)
@@ -4952,6 +5341,16 @@
 			(type default)
 		)
 		(uuid "7a4ef21b-672c-483c-86ce-927eea7a9bcc")
+	)
+	(polyline
+		(pts
+			(xy 365.76 227.33) (xy 365.76 147.32)
+		)
+		(stroke
+			(width 1)
+			(type dash)
+		)
+		(uuid "7cf7d924-c0c5-4592-95ca-980e27c89dab")
 	)
 	(wire
 		(pts
@@ -5531,7 +5930,7 @@
 	)
 	(text "nRF52840 Module"
 		(exclude_from_sim no)
-		(at 63.246 27.686 0)
+		(at 70.612 28.194 0)
 		(effects
 			(font
 				(size 5 5)
@@ -5554,7 +5953,7 @@
 	)
 	(text "BLE Enabled\n"
 		(exclude_from_sim no)
-		(at 62.992 37.846 0)
+		(at 70.358 38.354 0)
 		(effects
 			(font
 				(size 3 3)
@@ -5576,7 +5975,7 @@
 	)
 	(text "Power Management"
 		(exclude_from_sim no)
-		(at 242.062 22.606 0)
+		(at 248.412 22.606 0)
 		(effects
 			(font
 				(size 5 5)
@@ -5608,9 +6007,32 @@
 		)
 		(uuid "891de178-ebb9-4391-be4e-e0ad631bd2e8")
 	)
+	(text "Peripherals\n"
+		(exclude_from_sim no)
+		(at 247.65 155.448 0)
+		(effects
+			(font
+				(size 5 5)
+				(thickness 1)
+				(bold yes)
+			)
+		)
+		(uuid "987d145c-41f6-4868-b9da-602a9ce4eef2")
+	)
+	(text "EC11 Encoders, OLED and Cirque glidepoint trackpad\n"
+		(exclude_from_sim no)
+		(at 247.65 162.56 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.375)
+			)
+		)
+		(uuid "bf6602aa-79f3-4e27-8847-d1c56ce4e4a6")
+	)
 	(text "Contains USB C, ESD Protection, Battery charging/level sensing,\nand DC-DC conversion to 3.3V\n"
 		(exclude_from_sim no)
-		(at 243.84 33.528 0)
+		(at 250.19 33.528 0)
 		(effects
 			(font
 				(size 3 3)
@@ -5618,6 +6040,16 @@
 			)
 		)
 		(uuid "ccb73a56-652d-4942-8f97-bbf904f48806")
+	)
+	(label "CW"
+		(at 179.07 209.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c66ac4b-0d67-4cfd-9a57-4d516b77cc80")
 	)
 	(label ""
 		(at 92.71 72.39 0)
@@ -5663,6 +6095,16 @@
 		)
 		(uuid "19e2ee85-6ce4-4a3a-b882-49c827d2022b")
 	)
+	(label "NO"
+		(at 146.05 209.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1af423aa-fd53-442a-9136-7e55aa224f49")
+	)
 	(label "CHG"
 		(at 248.92 90.17 0)
 		(fields_autoplaced yes)
@@ -5673,6 +6115,27 @@
 			(justify left bottom)
 		)
 		(uuid "261ff153-8c75-48f2-85ef-bbdf6131c5a6")
+	)
+	(label "NO2"
+		(at 100.33 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2c70ec24-5632-407e-a10a-7c0fa4080e56")
+	)
+	(label "SDA"
+		(at 215.9 175.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2f234c7b-a82b-4d95-a3cd-68f4a8b0c0d3")
 	)
 	(label ""
 		(at 52.07 67.31 90)
@@ -5695,6 +6158,16 @@
 			(justify left bottom)
 		)
 		(uuid "37c49a9d-cc95-486e-afc0-db652959043e")
+	)
+	(label "CCW"
+		(at 179.07 212.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "38ac4b25-2f0c-4162-a55c-5c370d06c73d")
 	)
 	(label "VDD_HV"
 		(at 69.85 72.39 90)
@@ -5729,6 +6202,16 @@
 		)
 		(uuid "41e0ae61-d178-4856-9554-f7b2f1c1f883")
 	)
+	(label "CW2"
+		(at 179.07 181.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4501a72d-f42c-4530-a426-1f5004b5352b")
+	)
 	(label ""
 		(at 46.99 67.31 90)
 		(fields_autoplaced yes)
@@ -5739,6 +6222,16 @@
 			(justify left bottom)
 		)
 		(uuid "48261b25-a810-4332-a729-4edb00611877")
+	)
+	(label "CCW2"
+		(at 179.07 184.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4913448c-ec23-4d67-914e-4223f9f367b8")
 	)
 	(label ""
 		(at 92.71 59.69 0)
@@ -5751,6 +6244,27 @@
 		)
 		(uuid "4b2a6916-016e-43fc-a6bd-bd0de855ba44")
 	)
+	(label "CW2"
+		(at 100.33 166.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d1aeb14-cf8c-49a6-aef4-1b3cc6119032")
+	)
+	(label "NO2"
+		(at 146.05 181.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "607f2fea-7e90-4ae1-a5bf-cb2955f2daf4")
+	)
 	(label "VBUS"
 		(at 40.64 60.96 180)
 		(fields_autoplaced yes)
@@ -5761,6 +6275,16 @@
 			(justify right bottom)
 		)
 		(uuid "60ec5ab1-72e5-4af7-ae5d-dada2ed4ae59")
+	)
+	(label "SCL"
+		(at 215.9 177.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "676cf911-66df-4c77-843d-83988678258a")
 	)
 	(label ""
 		(at 92.71 72.39 0)
@@ -5806,6 +6330,28 @@
 		)
 		(uuid "7ae04737-5803-481d-b3c6-5dcd9b64aad7")
 	)
+	(label "NO"
+		(at 100.33 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7cf057d7-b4b5-4bf1-a9aa-019534390bf5")
+	)
+	(label "CCW"
+		(at 100.33 196.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8525f82b-8bdc-4bcc-ae74-958a4f2c71bd")
+	)
 	(label ""
 		(at 92.71 53.34 0)
 		(fields_autoplaced yes)
@@ -5848,6 +6394,17 @@
 			(justify left bottom)
 		)
 		(uuid "98690cef-c011-483f-94f3-1cf2c5477d37")
+	)
+	(label "CCW2"
+		(at 100.33 168.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9aa18f99-b56a-4fc6-a72b-fdf5ebe297d2")
 	)
 	(label ""
 		(at 67.31 62.23 90)
@@ -5925,6 +6482,17 @@
 			(justify left bottom)
 		)
 		(uuid "cc6a2616-08cd-4a49-90bf-d2a88f485a4b")
+	)
+	(label "CW"
+		(at 100.33 191.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d1638946-3d3e-4211-ab30-88dbc72a3ec1")
 	)
 	(label ""
 		(at 40.64 54.61 90)
@@ -6152,6 +6720,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3"
+		(shape input)
+		(at 215.9 180.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "daea2c53-a8a1-4d7b-bc58-62cd76326600")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 215.9 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -6891,6 +7479,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 179.07 207.01 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f683543-c749-43ed-8eec-2fec49132dbd")
+		(property "Reference" "#PWR026"
+			(at 179.07 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 179.07 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 179.07 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "060444c5-d961-4674-9cc7-4a2563a0bbc6")
+		)
+		(instances
+			(project "design_schematic"
+				(path "/0454547d-f090-46a4-b0ab-f58aec48f156"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 62.23 52.07 0)
 		(mirror x)
 		(unit 1)
@@ -7358,6 +8012,73 @@
 			(project ""
 				(path "/0454547d-f090-46a4-b0ab-f58aec48f156"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 146.05 184.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20207e65-5b45-47b4-bca3-8e0c0000b1fb")
+		(property "Reference" "#PWR020"
+			(at 139.7 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 184.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 146.05 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5ec5427-18bf-46b5-85c1-6033a1b0f44b")
+		)
+		(instances
+			(project "design_schematic"
+				(path "/0454547d-f090-46a4-b0ab-f58aec48f156"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -9145,6 +9866,143 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:PEC11L-4015F-S0015")
+		(at 161.29 194.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5badff5a-7bbd-48ee-b5f8-b8258614fffc")
+		(property "Reference" "U6"
+			(at 163.4841 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PEC11L-4015F-S0015"
+			(at 163.4841 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PEC11L4015FS0015"
+			(at 248.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/PDFs/pec11l.pdf"
+			(at 348.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Rotary Encoder Mechanical 15 Quadrature (Incremental) Vertical 	 6mm Dia Flatted End"
+			(at 161.29 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "20"
+			(at 548.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-PEC11L4015FS0015"
+			(at 648.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/PEC11L-4015F-S0015?qs=Zq5ylnUbLm7G6EFrj3V7Lw%3D%3D"
+			(at 748.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns"
+			(at 848.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PEC11L-4015F-S0015"
+			(at 948.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e33430c7-db30-4540-bc12-0f635175d5b1")
+		)
+		(pin "A1"
+			(uuid "bf04e1e8-7bb2-4641-8c7d-a1b6e76e0b17")
+		)
+		(pin "C1"
+			(uuid "6b3b6f54-096d-49d5-945d-01fef690876b")
+		)
+		(pin "MH2"
+			(uuid "9fed992a-d063-4098-b74a-86a470bd01ad")
+		)
+		(pin "1"
+			(uuid "82572360-56e3-401f-ba03-caf30d553ff6")
+		)
+		(pin "B1"
+			(uuid "ddcc78cf-b5c8-4ef7-a7d2-b9acaafdf64b")
+		)
+		(pin "MH1"
+			(uuid "8ad879b5-f956-408a-bd5a-26dd93f3c693")
+		)
+		(instances
+			(project "design_schematic"
+				(path "/0454547d-f090-46a4-b0ab-f58aec48f156"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 92.71 59.69 90)
 		(unit 1)
@@ -9409,6 +10267,142 @@
 			(project "design_schematic"
 				(path "/0454547d-f090-46a4-b0ab-f58aec48f156"
 					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 215.9 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6806179b-4313-4940-a9d1-6c0a6cff44a4")
+		(property "Reference" "C9"
+			(at 218.44 184.1562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 219.202 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Capacitor_0402"
+			(at 215.9 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 215.9 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e026748-4ebc-4afc-9639-0b156a0ca68b")
+		)
+		(pin "2"
+			(uuid "f4ef2582-676a-4de1-95b0-d496165f7624")
+		)
+		(instances
+			(project "design_schematic"
+				(path "/0454547d-f090-46a4-b0ab-f58aec48f156"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 146.05 212.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72c96b6a-6a2a-49b2-b94d-66566dd24bcc")
+		(property "Reference" "#PWR019"
+			(at 139.7 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 212.0899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 146.05 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0a5617b-5666-4c51-830a-85acc6bc8e3a")
+		)
+		(instances
+			(project ""
+				(path "/0454547d-f090-46a4-b0ab-f58aec48f156"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -10089,6 +11083,148 @@
 		)
 	)
 	(symbol
+		(lib_id "ScottoKeebs:OLED_128x32")
+		(at 218.44 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0c51a77-afa5-4b6a-a1c9-78ec726ed927")
+		(property "Reference" "J4"
+			(at 234.95 177.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OLED_128x32"
+			(at 234.95 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:OLED_128x32"
+			(at 218.44 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43b9f193-2b94-4334-b5c9-a73f53fb8ae8")
+		)
+		(pin "4"
+			(uuid "44f7f7d4-e3cc-49f8-a84b-1705b5c1affd")
+		)
+		(pin "3"
+			(uuid "91821549-1a2c-4e1b-8fe3-21777a158b2e")
+		)
+		(pin "2"
+			(uuid "b7379999-c600-48be-ab3e-81783676d3f3")
+		)
+		(instances
+			(project ""
+				(path "/0454547d-f090-46a4-b0ab-f58aec48f156"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 215.9 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bef31f03-a407-4607-bcd7-b6fdf9fda91f")
+		(property "Reference" "#PWR022"
+			(at 215.9 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 215.9 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 215.9 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8b57c7a-1610-4b5a-a38e-43d5f51565fc")
+		)
+		(instances
+			(project "design_schematic"
+				(path "/0454547d-f090-46a4-b0ab-f58aec48f156"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
 		(at 156.21 78.74 0)
 		(unit 1)
@@ -10196,6 +11332,72 @@
 			(project ""
 				(path "/0454547d-f090-46a4-b0ab-f58aec48f156"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 179.07 179.07 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbf40a49-755e-49e1-a80f-a70304d3a7b9")
+		(property "Reference" "#PWR025"
+			(at 179.07 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 179.07 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 179.07 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "259ea2b5-0003-493a-9a8f-c205daf58562")
+		)
+		(instances
+			(project "design_schematic"
+				(path "/0454547d-f090-46a4-b0ab-f58aec48f156"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -11183,6 +12385,143 @@
 			(project "design_schematic"
 				(path "/0454547d-f090-46a4-b0ab-f58aec48f156"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:PEC11L-4015F-S0015")
+		(at 161.29 222.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff26501c-0d42-4842-918d-b282c7e03ccd")
+		(property "Reference" "U5"
+			(at 163.4841 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PEC11L-4015F-S0015"
+			(at 163.4841 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PEC11L4015FS0015"
+			(at 248.59 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/PDFs/pec11l.pdf"
+			(at 348.59 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Rotary Encoder Mechanical 15 Quadrature (Incremental) Vertical 	 6mm Dia Flatted End"
+			(at 161.29 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "20"
+			(at 548.59 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-PEC11L4015FS0015"
+			(at 648.59 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/PEC11L-4015F-S0015?qs=Zq5ylnUbLm7G6EFrj3V7Lw%3D%3D"
+			(at 748.59 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns"
+			(at 848.59 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PEC11L-4015F-S0015"
+			(at 948.59 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ca65a27a-4b23-4129-8dbe-8c2b0a3591b8")
+		)
+		(pin "A1"
+			(uuid "11cdc227-6cea-4142-93c8-4476800585e1")
+		)
+		(pin "C1"
+			(uuid "bbb375b0-0a5e-4c13-83e7-5e069db8fe09")
+		)
+		(pin "MH2"
+			(uuid "6647b544-1695-4320-a3f3-4e4fad9ad34a")
+		)
+		(pin "1"
+			(uuid "74df9f31-9e0f-43a2-b5e2-080be6c100a0")
+		)
+		(pin "B1"
+			(uuid "797ba975-fde3-45f0-8be5-f28881552efe")
+		)
+		(pin "MH1"
+			(uuid "685564e7-9c8f-481e-b604-c5dcdaa81d05")
+		)
+		(instances
+			(project ""
+				(path "/0454547d-f090-46a4-b0ab-f58aec48f156"
+					(reference "U5")
 					(unit 1)
 				)
 			)

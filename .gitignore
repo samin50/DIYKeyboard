@@ -2,4 +2,4 @@
 *.lck
 examples
 *auto_saved_files#
-*-backup
+*-backups

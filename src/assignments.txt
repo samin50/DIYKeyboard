@@ -1,0 +1,10 @@
+0.14    AC9     SDA
+0.16    AC11    SCL
+0.26    G1      CHG
+0.29    A10     NO2     #Pullup
+0.31    A8      NO      #Pullup
+
+1.02    Y24     CW2     #Pullup
+1.03    V23     CCW2    #Pullup
+1.12    B17     CW      #Pullup
+1.14    B15     CCW     #Pullup
