@@ -1,6 +1,6 @@
 ## Current Design:
 
-![1727484821589](imgs/keyboard-layout%20(1).jpg)
+![1727484821589](imgs/keyboard-layout.png)
 
 XC9148 step-up converter is ~95% efficient. (5V @ 400mA)
 

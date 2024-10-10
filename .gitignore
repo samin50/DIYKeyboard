@@ -3,3 +3,5 @@
 examples
 *auto_saved_files#
 *-backups
+test/
+_autosave-*
