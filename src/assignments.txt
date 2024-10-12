@@ -1,21 +1,29 @@
-0.02    A12     Column 0
-0.03    B13     Column 1
-0.04    J1      Column 2
-0.05    K2      Column 3
-0.06    L1      Column 4
-0.08    N1      Column 5
-0.14    AC9     SDA
-0.16    AC11    SCL
-0.25    AC21    MOSI    #Controls LEDS
-0.26    G1      CHG
-0.29    A10     NO2     #Pullup
-0.31    A8      NO      #Pullup
+0.00    SCL         // I2C
+0.01    SDA         // I2C
+0.02    Column 4
+0.03    Column 5
+0.04    Row 0
+0.05    Row 1
+0.09    INTA        // Interupt for IO Expander
+0.10    2A          // LEDs
+0.11    Row 3
+0.15    CW
+0.17    CCW
+0.18    CCW2
+0.20    CW2
+0.28    Column 3
+0.29    Column 2
+0.30    Column 1
+0.31    Column 0
+1.09    Row 2
 
-1.02    Y24     CW2     #Pullup
-1.03    V23     CCW2    #Pullup
-1.04    U24     Row 0
-1.05    T23     Row 1
-1.06    R24     Row 2
-1.07    P23     Row 3
-1.12    B17     CW      #Pullup
-1.14    B15     CCW     #Pullup
+# IO Expander
+GPA0    NO
+GPA1    NO2
+GPA2    CHG         //Pullup
+
+# Devices on I2C SCL/SDA
+MCP23018 IO Expander
+0.91 Inch 128x32 SSD1306
+Cirque trackpad
+BQ27441 fuel gauge

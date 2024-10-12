@@ -1,15 +1,18 @@
 ## Current Design:
 
-![1727484821589](imgs/keyboard-layout.png)
+<img src="imgs/keyboard-layout.png" width=500>
 
 XC9148 step-up converter is ~95% efficient. (5V @ 400mA)
 
 ## Components used:
-nRF52840:
+~~nRF52840:~~
+- Abondoned due to difficult-to-solder aQFN73 package, QFN40 loses USB pins.
+nRF52833:
 - BLE Enabled
 - Supports I2C on any pins
 - Supports USB data connection
-  
+<img src="imgs/nrf82833%20ref.jpg" width=500>
+
 USB6B1:
 - Protects USB C line.
 
