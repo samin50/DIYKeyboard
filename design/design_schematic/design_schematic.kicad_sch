@@ -3506,6 +3506,157 @@
 				)
 			)
 		)
+		(symbol "SamacSys_Parts:ACAG0801-2450-T"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "ANT"
+				(at 19.05 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "ACAG0801-2450-T"
+				(at 19.05 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "ANTC8010X110N"
+				(at 19.05 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://abracon.com/datasheets/ACAG0801-2450-T.pdf"
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Abracon SMT Antenna ACAG0801-2450-T, 2450 MHz"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.1"
+				(at 19.05 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "815-G0801-2450-T"
+				(at 19.05 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ABRACON/ACAG0801-2450-T?qs=fAHHVMwC%252BbhdHzoIvMh2Og%3D%3D"
+				(at 19.05 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "ABRACON"
+				(at 19.05 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "ACAG0801-2450-T"
+				(at 19.05 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "ACAG0801-2450-T_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 17.78 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at 0 0 0)
+					(length 5.08)
+					(name "FEED"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "SamacSys_Parts:CL-SA-12C4-22"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -7179,6 +7330,12 @@
 		(uuid "ab681b08-2742-4eb4-af5e-1238c7612103")
 	)
 	(junction
+		(at 110.49 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad186e44-6f4c-433a-97d1-bf97f39c0ae7")
+	)
+	(junction
 		(at 332.74 280.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7719,6 +7876,16 @@
 			(type default)
 		)
 		(uuid "15409f62-1199-4e4c-bd1a-85d77e84b9f4")
+	)
+	(wire
+		(pts
+			(xy 115.57 124.46) (xy 116.84 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15b1a6cf-b2af-4059-9810-ed3ea5c13e46")
 	)
 	(wire
 		(pts
@@ -10582,6 +10749,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 129.54) (xy 110.49 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c398b7ed-4109-4db3-8ac8-76cb90dfdd7f")
+	)
+	(wire
+		(pts
 			(xy 78.74 72.39) (xy 78.74 73.66)
 		)
 		(stroke
@@ -12137,13 +12314,13 @@
 		(uuid "b5e74777-45e8-4745-a438-d1701acdb979")
 	)
 	(label "RF"
-		(at 110.49 124.46 0)
+		(at 110.49 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "b73c7525-9e6c-4c48-b4db-369f850d456d")
 	)
@@ -12633,6 +12810,72 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 116.84 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "018e868b-30bc-4031-9d5f-9443f7530cb4")
+		(property "Reference" "#PWR064"
+			(at 123.19 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.396 122.428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 116.84 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93c27a26-a97d-4ea6-9b2d-bf97c2820d35")
+		)
+		(instances
+			(project "design_schematic"
+				(path "/0454547d-f090-46a4-b0ab-f58aec48f156"
+					(reference "#PWR064")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -13276,7 +13519,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1V2_Plated_1.00u"
 			(at 59.69 248.92 0)
 			(effects
 				(font
@@ -13545,7 +13788,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1V2_Plated_1.00u"
 			(at 93.98 248.92 0)
 			(effects
 				(font
@@ -13747,7 +13990,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1V2_Plated_1.00u"
 			(at 48.26 269.24 0)
 			(effects
 				(font
@@ -14035,7 +14278,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1V2_Plated_1.00u"
 			(at 71.12 309.88 0)
 			(effects
 				(font
@@ -14913,7 +15156,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1V2_Plated_1.00u"
 			(at 93.98 289.56 0)
 			(effects
 				(font
@@ -15046,7 +15289,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1V2_Plated_1.00u"
 			(at 82.55 269.24 0)
 			(effects
 				(font
@@ -15920,7 +16163,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1V2_Plated_1.00u"
 			(at 71.12 289.56 0)
 			(effects
 				(font
@@ -16055,7 +16298,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1V2_Plated_1.00u"
 			(at 48.26 248.92 0)
 			(effects
 				(font
@@ -16191,7 +16434,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1V2_Plated_1.00u"
 			(at 48.26 289.56 0)
 			(effects
 				(font
@@ -17351,7 +17594,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1V2_Plated_1.00u"
 			(at 36.83 248.92 0)
 			(effects
 				(font
@@ -17484,7 +17727,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1V2_Plated_1.00u"
 			(at 48.26 309.88 0)
 			(effects
 				(font
@@ -18130,7 +18373,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1V2_Plated_1.00u"
 			(at 71.12 269.24 0)
 			(effects
 				(font
@@ -18684,7 +18927,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1V2_Plated_1.00u"
 			(at 82.55 309.88 0)
 			(effects
 				(font
@@ -18819,7 +19062,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1V2_Plated_1.00u"
 			(at 36.83 289.56 0)
 			(effects
 				(font
@@ -18856,6 +19099,128 @@
 			(project "design_schematic"
 				(path "/0454547d-f090-46a4-b0ab-f58aec48f156"
 					(reference "S10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:ACAG0801-2450-T")
+		(at 110.49 130.81 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "663bdd82-a310-4090-be08-ceaecda7582e")
+		(property "Reference" "ANT1"
+			(at 114.3 140.9699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ACAG0801-2450-T"
+			(at 114.3 143.5099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ANTC8010X110N"
+			(at 15.57 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://abracon.com/datasheets/ACAG0801-2450-T.pdf"
+			(at -84.43 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Abracon SMT Antenna ACAG0801-2450-T, 2450 MHz"
+			(at 110.49 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at -284.43 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "815-G0801-2450-T"
+			(at -384.43 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ABRACON/ACAG0801-2450-T?qs=fAHHVMwC%252BbhdHzoIvMh2Og%3D%3D"
+			(at -484.43 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ABRACON"
+			(at -584.43 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ACAG0801-2450-T"
+			(at -684.43 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e2d54979-881a-4f87-9fed-1555fb5eb3b9")
+		)
+		(pin "1"
+			(uuid "7b13e2de-f40d-4110-9483-b574d27283e8")
+		)
+		(instances
+			(project ""
+				(path "/0454547d-f090-46a4-b0ab-f58aec48f156"
+					(reference "ANT1")
 					(unit 1)
 				)
 			)
@@ -18954,7 +19319,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1V2_Plated_1.00u"
 			(at 82.55 248.92 0)
 			(effects
 				(font
@@ -19622,6 +19987,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L_Small")
+		(at 110.49 127 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "774de92d-2f43-4431-8382-e0114cd613d2")
+		(property "Reference" "L4"
+			(at 106.934 126.746 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.3nH"
+			(at 108.712 126.746 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 110.49 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor, small symbol"
+			(at 110.49 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e21c212-2887-4d8f-a449-25dd9e1f5cbc")
+		)
+		(pin "2"
+			(uuid "61895c6a-0176-4a15-a3ff-241186bc7426")
+		)
+		(instances
+			(project "design_schematic"
+				(path "/0454547d-f090-46a4-b0ab-f58aec48f156"
+					(reference "L4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 294.64 313.69 0)
 		(unit 1)
@@ -19730,7 +20163,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1V2_Plated_1.00u"
 			(at 36.83 269.24 0)
 			(effects
 				(font
@@ -20987,7 +21420,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1V2_Plated_1.00u"
 			(at 71.12 248.92 0)
 			(effects
 				(font
@@ -21122,7 +21555,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1V2_Plated_1.00u"
 			(at 59.69 269.24 0)
 			(effects
 				(font
@@ -21787,6 +22220,74 @@
 			(project "design_schematic"
 				(path "/0454547d-f090-46a4-b0ab-f58aec48f156"
 					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 113.03 124.46 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9682ae7b-65a8-402d-a3d6-0acb2245ce83")
+		(property "Reference" "C36"
+			(at 115.316 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.5pF"
+			(at 114.808 127.254 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Capacitor_0603"
+			(at 113.03 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 113.03 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b38ca97b-6d38-4793-ae1d-6dc2c383f901")
+		)
+		(pin "1"
+			(uuid "af4d9b50-f436-4749-affc-bde63966915a")
+		)
+		(instances
+			(project "design_schematic"
+				(path "/0454547d-f090-46a4-b0ab-f58aec48f156"
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -24185,7 +24686,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1V2_Plated_1.00u"
 			(at 36.83 309.88 0)
 			(effects
 				(font
@@ -24423,7 +24924,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1V2_Plated_1.00u"
 			(at 59.69 289.56 0)
 			(effects
 				(font
@@ -24491,7 +24992,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1V2_Plated_1.00u"
 			(at 59.69 309.88 0)
 			(effects
 				(font
@@ -25623,7 +26124,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1V2_Plated_1.00u"
 			(at 93.98 269.24 0)
 			(effects
 				(font
@@ -27456,7 +27957,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1V2_Plated_1.00u"
 			(at 82.55 289.56 0)
 			(effects
 				(font
@@ -27826,7 +28327,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1V2_Plated_1.00u"
 			(at 93.98 309.88 0)
 			(effects
 				(font
