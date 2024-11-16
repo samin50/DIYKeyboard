@@ -11906,6 +11906,17 @@
 		)
 		(uuid "1af423aa-fd53-442a-9136-7e55aa224f49")
 	)
+	(label "D_N"
+		(at 177.8 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b30ddbb-a6f4-47de-8ecd-dc52cceaab91")
+	)
 	(label "Row 0"
 		(at 107.95 259.08 0)
 		(fields_autoplaced yes)
@@ -12268,6 +12279,17 @@
 			(justify right bottom)
 		)
 		(uuid "a86f0e13-c4f0-453e-a421-40f56717a216")
+	)
+	(label "D_P"
+		(at 177.8 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad6a9dca-14f6-4a7c-9636-6ee0c88ca77a")
 	)
 	(label "CCW"
 		(at 68.58 132.08 270)
