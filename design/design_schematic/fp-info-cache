@@ -1,4 +1,4 @@
-25036552740561938
+25045198092886849
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -89124,6 +89124,34 @@ Connector
 12
 12
 SamacSys_Parts
+ANT1608LL14R2400A
+ANT1608LL14R2400A-2
+Antenna
+0
+3
+3
+SamacSys_Parts
+ANTC8010X110N
+ACAG0801
+Antenna
+0
+2
+2
+SamacSys_Parts
+CLSA12C422
+CL-SA-12C4-22-2
+Switch
+0
+3
+3
+SamacSys_Parts
+GG3500020
+GG-350-0020-1
+Switch
+0
+6
+6
+SamacSys_Parts
 NE555DR
 D (R-PDSO-G8)
 Integrated Circuit
@@ -89186,6 +89214,13 @@ Integrated Circuit
 0
 5
 5
+SamacSys_Parts
+XC9290A07E1RG
+LGA-6B01_23
+Integrated Circuit
+0
+6
+6
 ScottoKeebs_Alps
 Alps
 Alps/keyswitch
