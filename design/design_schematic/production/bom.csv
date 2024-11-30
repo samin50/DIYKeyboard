@@ -1,5 +1,5 @@
 ﻿Designator,Footprint,Quantity,Value,LCSC Part #
-"3V3_2, 3v3_1, 5V_1, 5V_2, 5V_3, BAT_1, GND1, GND2, GND3, GND4, OUT_1_2, OUT_1, VBUS_1, VBUS_USB1",TestPoint_Pad_D1.5mm,14,TestPoint,
+"3V3_2, 3V3_3, 3v3_1, 5V_1, 5V_2, 5V_3, BAT_1, GND1, GND2, GND3, GND4, OUT_1, VBUS_1, VBUS_USB1",TestPoint_Pad_D1.5mm,14,TestPoint,
 ANT1,ANTC8010X110N,1,ACAG0801-2450-T,
 "C1, C10, C13, C17, C2, C23, C4, C9",Capacitor_0603,8,4.7uF,
 C11,Capacitor_0603,1,820pF,

@@ -7841,6 +7841,16 @@
 	)
 	(wire
 		(pts
+			(xy 304.8 171.45) (xy 304.8 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "041f4332-d367-490b-9363-29942084b31f")
+	)
+	(wire
+		(pts
 			(xy 113.03 92.71) (xy 113.03 96.52)
 		)
 		(stroke
@@ -9768,6 +9778,16 @@
 			(type default)
 		)
 		(uuid "704d2546-2e8d-41ae-9ad5-8aac5f515adc")
+	)
+	(wire
+		(pts
+			(xy 304.8 175.26) (xy 306.07 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70b280e2-86ac-4f0f-8425-762e31289cc7")
 	)
 	(wire
 		(pts
@@ -13519,6 +13539,28 @@
 		(uuid "e7d6d71d-53b5-47ab-928b-b0f64def3ab1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 210.2976 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3"
+		(shape input)
+		(at 306.07 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f058476d-e79a-41bc-89c5-6bb2a1a1e139")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 312.5628 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19738,6 +19780,73 @@
 			(project "design_schematic"
 				(path "/0454547d-f090-46a4-b0ab-f58aec48f156"
 					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 304.8 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58ad37c7-a65d-4ebd-9595-c5336f499c09")
+		(property "Reference" "3V3_3"
+			(at 307.34 166.8779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 307.34 169.4179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 309.88 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 309.88 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 304.8 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "918478af-c4ba-479d-87d9-b7614fe60e3c")
+		)
+		(instances
+			(project "design_schematic"
+				(path "/0454547d-f090-46a4-b0ab-f58aec48f156"
+					(reference "3V3_3")
 					(unit 1)
 				)
 			)
