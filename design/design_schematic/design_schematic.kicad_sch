@@ -14217,7 +14217,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a75b46c-ab2f-4f62-b419-111fcf0c0c43")
-		(property "Reference" "5V_4"
+		(property "Reference" "OUT_1"
 			(at 355.6 185.9279 0)
 			(effects
 				(font
@@ -14268,7 +14268,7 @@
 		(instances
 			(project "design_schematic"
 				(path "/0454547d-f090-46a4-b0ab-f58aec48f156"
-					(reference "5V_4")
+					(reference "OUT_1")
 					(unit 1)
 				)
 			)
