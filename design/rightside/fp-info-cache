@@ -1,4 +1,4 @@
-25050395084297585
+25055594377351425
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -89123,6 +89123,27 @@ Connector
 0
 12
 12
+SamacSys_Parts
+ABLS
+ABLS
+Crystal or Oscillator
+0
+2
+2
+SamacSys_Parts
+ABM7
+ABM7
+Crystal or Oscillator
+0
+2
+2
+SamacSys_Parts
+ABM232000MHZD4YFT
+ABM2-32.000MHZ-D4YF-T-1
+Crystal or Oscillator
+0
+2
+2
 SamacSys_Parts
 ANT1608LL14R2400A
 ANT1608LL14R2400A-2
