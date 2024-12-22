@@ -8739,16 +8739,6 @@
 	)
 	(wire
 		(pts
-			(xy 387.35 229.87) (xy 387.35 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17e043f4-2960-4056-a490-e1a53e2e105c")
-	)
-	(wire
-		(pts
 			(xy 508 50.8) (xy 518.16 50.8)
 		)
 		(stroke
@@ -9829,16 +9819,6 @@
 	)
 	(wire
 		(pts
-			(xy 387.35 213.36) (xy 387.35 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c218cf8-92c8-4c9b-9b36-be1c64f0583c")
-	)
-	(wire
-		(pts
 			(xy 372.11 41.91) (xy 424.18 41.91)
 		)
 		(stroke
@@ -9956,16 +9936,6 @@
 			(type default)
 		)
 		(uuid "3fe566eb-43b7-4473-bc02-1477d11246b4")
-	)
-	(wire
-		(pts
-			(xy 394.97 222.25) (xy 403.86 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40902347-426c-404c-85c2-86dcede1e901")
 	)
 	(wire
 		(pts
@@ -10606,16 +10576,6 @@
 			(type default)
 		)
 		(uuid "5864144c-0fde-40f2-b96f-810358dd2ca0")
-	)
-	(wire
-		(pts
-			(xy 411.48 213.36) (xy 387.35 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5880583e-4cf3-4835-a930-8e89f1d98e9a")
 	)
 	(wire
 		(pts
@@ -28189,72 +28149,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 387.35 231.14 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8925497b-5e4d-4d30-8852-056128a84afb")
-		(property "Reference" "#PWR0110"
-			(at 387.35 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 387.35 235.204 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 387.35 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 387.35 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 387.35 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a0d8e8b0-c8db-4bbc-b0b5-9b7dd9af275c")
-		)
-		(instances
-			(project "rightside_reroute"
-				(path "/0454547d-f090-46a4-b0ab-f58aec48f156"
-					(reference "#PWR0110")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
 		(at 57.15 261.62 0)
 		(unit 1)
@@ -28401,90 +28295,6 @@
 			(project "rightside_reroute"
 				(path "/0454547d-f090-46a4-b0ab-f58aec48f156"
 					(reference "D31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 387.35 222.25 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8ab767e2-d663-4250-9f33-f0ac9327d4fa")
-		(property "Reference" "D50"
-			(at 376.428 219.964 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED_SK6812MINI"
-			(at 376.428 215.392 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
-			(at 386.08 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 386.08 233.426 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 369.062 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5149201"
-			(at 376.428 217.932 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "7cd1a638-f306-469f-b61b-169c23aae4ea")
-		)
-		(pin "3"
-			(uuid "b94030a8-4274-4e57-b9e4-1bb5e3fbe975")
-		)
-		(pin "1"
-			(uuid "5f3fb7d4-be31-4ec4-b911-f0b1ef5db853")
-		)
-		(pin "2"
-			(uuid "d53220f0-588d-4a99-a1e5-83094f70a8cf")
-		)
-		(instances
-			(project "rightside_reroute"
-				(path "/0454547d-f090-46a4-b0ab-f58aec48f156"
-					(reference "D50")
 					(unit 1)
 				)
 			)
