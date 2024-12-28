@@ -10638,16 +10638,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 281.94) (xy 217.17 281.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a0370a1-cbe0-4f19-a90e-fa731f6befd4")
-	)
-	(wire
-		(pts
 			(xy 82.55 107.95) (xy 101.6 107.95)
 		)
 		(stroke
@@ -11565,16 +11555,6 @@
 			(type default)
 		)
 		(uuid "7eea4cac-6a66-452f-a93a-5dce43ec4609")
-	)
-	(wire
-		(pts
-			(xy 215.9 279.4) (xy 215.9 281.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fafde7a-e256-4a31-8252-0fe50f6c478d")
 	)
 	(wire
 		(pts
@@ -14949,17 +14929,6 @@
 		)
 		(uuid "896f0924-15ce-4c7d-8ba1-d114289d9e96")
 	)
-	(label "OUT"
-		(at 217.17 281.94 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8af99e12-fb08-4132-b4da-62880d2239a4")
-	)
 	(label "Column 5"
 		(at 74.93 73.66 0)
 		(fields_autoplaced yes)
@@ -16600,73 +16569,6 @@
 			(project "rightside_reroute"
 				(path "/0454547d-f090-46a4-b0ab-f58aec48f156"
 					(reference "#PWR080")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 215.9 279.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0a75b46c-ab2f-4f62-b419-111fcf0c0c43")
-		(property "Reference" "OUT_1"
-			(at 218.44 274.8279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 218.44 277.3679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 220.98 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 220.98 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 215.9 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "775d59f6-9267-457d-92bc-d19f42355827")
-		)
-		(instances
-			(project "design_schematic"
-				(path "/0454547d-f090-46a4-b0ab-f58aec48f156"
-					(reference "OUT_1")
 					(unit 1)
 				)
 			)
