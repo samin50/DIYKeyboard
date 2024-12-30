@@ -1,4 +1,4 @@
-25635094559330460
+25648974755099151
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55033,6 +55033,41 @@ SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
+CustomLibrary
+HeaderFemale
+
+
+0
+1
+1
+CustomLibrary
+M1.6 Hole
+
+
+0
+0
+0
+CustomLibrary
+M1.6 resin
+
+
+0
+0
+0
+CustomLibrary
+MaleHeader
+
+
+0
+1
+1
+CustomLibrary
+MatedMaleFemaleConnector
+
+
+0
+2
+2
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -90804,6 +90839,13 @@ Connector
 12
 12
 SamacSys_Parts
+8292200120001101
+829-22-001-20-001101-5
+Connector
+0
+1
+1
+SamacSys_Parts
 ABLS
 ABLS
 Crystal or Oscillator
@@ -90867,6 +90909,13 @@ Switch
 6
 6
 SamacSys_Parts
+HDRRA4W61P0X254_1X4_1016X279X254P
+399-10-104-10-009000
+Connector
+0
+4
+4
+SamacSys_Parts
 NE555DR
 D (R-PDSO-G8)
 Integrated Circuit
@@ -90922,6 +90971,13 @@ Connector
 0
 18
 18
+SamacSys_Parts
+SON40P400X250X100-13N-D
+BQ27510DRZR-G3-1
+Integrated Circuit
+0
+13
+13
 SamacSys_Parts
 SOP65P640X110-14N
 TSSOP 14
