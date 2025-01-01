@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "0454547d-f090-46a4-b0ab-f58aec48f156")
-	(paper "A2")
+	(paper "A1")
 	(lib_symbols
 		(symbol "Battery_Management:BQ24072RGT"
 			(exclude_from_sim no)
@@ -36020,7 +36020,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 88.9 138.43 0)
 			(effects
 				(font
