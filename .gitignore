@@ -5,3 +5,5 @@ examples
 *-backups
 test/
 _autosave-*
+*gerb/
+-cache
