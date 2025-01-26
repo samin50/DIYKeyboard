@@ -1,4 +1,6 @@
 *.FCStd1
+*.FCStd.*
+*.FCBak
 *.lck
 examples
 *auto_saved_files#
