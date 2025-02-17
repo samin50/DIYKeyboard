@@ -1,0 +1,10 @@
+{
+    "nrf-connect.applications": [
+        "${workspaceFolder}\\src"
+    ],
+    "cmake.sourceDirectory": "C:/Users/shahe/Desktop/Personal/Projects/PCB/Keyboard/src",
+    "files.associations": {
+        "printk.h": "c",
+        "log.h": "c"
+    }
+}

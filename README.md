@@ -1,16 +1,16 @@
-## Current Design:
+## Current Design
 
 <img src="imgs/keyboard-layout.png" width=500>
 
-XC9148 step-up converter is ~95% efficient. (5V @ 400mA)
-
-## Components used:
+## Components Used
 ~~nRF52840:~~
 - Abondoned due to difficult-to-solder aQFN73 package, QFN40 loses USB pins.
+
 nRF52833:
 - BLE Enabled
 - Supports I2C on any pins
-- Supports USB data connection
+- Supports USB data connection 
+
 <img src="imgs/nrf82833%20ref.jpg" width=500>
 
 USB6B1:
@@ -28,6 +28,10 @@ XC9291:
 - Takes variable voltage of battery and USB-C and fixes to 3.3V for peripherals and nRF52840.
 - ~90% efficient. TPS62840 is ~91-95% efficient. (Vout = 3.3V @ 10mA)
 
-XC9291:
+XC9248:
 - Takes variable voltage of battery and USB-C and fixes to 5V for LEDs.
 - ~95% efficient. (5V @ 400mA)
+
+## Hardware Used
+Segger J-Link:
+- Used to program nRF MCUs

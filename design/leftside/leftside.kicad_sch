@@ -7678,7 +7678,7 @@
 		(uuid "554a3b72-7b59-44e5-ba0b-aeffc26e7419")
 	)
 	(junction
-		(at 332.74 219.71)
+		(at 335.28 223.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "575700e8-47b6-4d91-ac89-f76f441735fc")
@@ -7744,7 +7744,7 @@
 		(uuid "6db64dbf-d901-4539-94de-4bba67036530")
 	)
 	(junction
-		(at 332.74 226.06)
+		(at 335.28 229.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e989ca0-46fe-46e0-adf3-8421564f6217")
@@ -8330,7 +8330,7 @@
 		(uuid "010c77ee-3389-4804-9f1f-a47ae64b4c83")
 	)
 	(no_connect
-		(at 325.12 196.85)
+		(at 327.66 200.66)
 		(uuid "0268fa08-bf65-4f64-a1e1-a911a239b4ff")
 	)
 	(no_connect
@@ -8366,15 +8366,15 @@
 		(uuid "5781f2e4-ef83-41ab-85cd-73d2137685f6")
 	)
 	(no_connect
-		(at 325.12 201.93)
+		(at 327.66 205.74)
 		(uuid "5882d7e8-fabf-4123-a6b1-a03b7742e917")
 	)
 	(no_connect
-		(at 325.12 204.47)
+		(at 327.66 208.28)
 		(uuid "647aa866-0a34-4f28-a7e3-97d426e9b374")
 	)
 	(no_connect
-		(at 325.12 212.09)
+		(at 327.66 215.9)
 		(uuid "66f9e48a-7883-4059-9072-8db9f1aed42a")
 	)
 	(no_connect
@@ -8414,7 +8414,7 @@
 		(uuid "9e61a3e5-28aa-40fb-8bb8-83e57cdb8724")
 	)
 	(no_connect
-		(at 325.12 209.55)
+		(at 327.66 213.36)
 		(uuid "9f20b967-c260-43b9-8d8d-390d8b724c4b")
 	)
 	(no_connect
@@ -8422,7 +8422,7 @@
 		(uuid "a7a19c0a-8ada-453c-ae79-fb27fafca0fa")
 	)
 	(no_connect
-		(at 299.72 194.31)
+		(at 302.26 198.12)
 		(uuid "b6e43c77-956f-4f19-84e0-b66af92b4d57")
 	)
 	(no_connect
@@ -8434,15 +8434,15 @@
 		(uuid "dedb7eea-cd2d-41b8-a105-a45aa37de1b8")
 	)
 	(no_connect
-		(at 325.12 199.39)
+		(at 327.66 203.2)
 		(uuid "e3290eda-51c1-46ee-8126-50dae9501cbe")
 	)
 	(no_connect
-		(at 299.72 196.85)
+		(at 302.26 200.66)
 		(uuid "e45ad103-5c37-442b-b603-2153c6b56326")
 	)
 	(no_connect
-		(at 325.12 194.31)
+		(at 327.66 198.12)
 		(uuid "ea119456-b623-4069-9972-73137647b085")
 	)
 	(no_connect
@@ -8454,7 +8454,7 @@
 		(uuid "ef823f9d-8833-4b93-9097-c4fe4946e2f7")
 	)
 	(no_connect
-		(at 325.12 207.01)
+		(at 327.66 210.82)
 		(uuid "ffd44700-8f99-4f60-804f-09c227ba308e")
 	)
 	(wire
@@ -9029,7 +9029,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 226.06) (xy 325.12 226.06)
+			(xy 335.28 229.87) (xy 327.66 229.87)
 		)
 		(stroke
 			(width 0)
@@ -10339,7 +10339,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 219.71) (xy 336.55 219.71)
+			(xy 335.28 223.52) (xy 339.09 223.52)
 		)
 		(stroke
 			(width 0)
@@ -10689,7 +10689,7 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 217.17) (xy 326.39 217.17)
+			(xy 327.66 220.98) (xy 328.93 220.98)
 		)
 		(stroke
 			(width 0)
@@ -11069,7 +11069,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 226.06) (xy 335.28 226.06)
+			(xy 335.28 229.87) (xy 337.82 229.87)
 		)
 		(stroke
 			(width 0)
@@ -12599,7 +12599,7 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 226.06) (xy 325.12 222.25)
+			(xy 327.66 229.87) (xy 327.66 226.06)
 		)
 		(stroke
 			(width 0)
@@ -12729,7 +12729,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 214.63) (xy 325.12 214.63)
+			(xy 328.93 218.44) (xy 327.66 218.44)
 		)
 		(stroke
 			(width 0)
@@ -13119,7 +13119,7 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 219.71) (xy 332.74 219.71)
+			(xy 327.66 223.52) (xy 335.28 223.52)
 		)
 		(stroke
 			(width 0)
@@ -14569,7 +14569,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 224.79) (xy 332.74 226.06)
+			(xy 335.28 228.6) (xy 335.28 229.87)
 		)
 		(stroke
 			(width 0)
@@ -15018,7 +15018,6 @@
 	)
 	(label "CW"
 		(at 57.15 148.59 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15029,7 +15028,6 @@
 	)
 	(label "Row 0"
 		(at 40.64 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15040,7 +15038,6 @@
 	)
 	(label "CW"
 		(at 180.34 207.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15051,7 +15048,6 @@
 	)
 	(label "NO"
 		(at 144.78 207.01 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15062,7 +15058,6 @@
 	)
 	(label "D_N"
 		(at 177.8 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15073,7 +15068,6 @@
 	)
 	(label "Row 0"
 		(at 87.63 271.78 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15084,7 +15078,6 @@
 	)
 	(label "GPOUT"
 		(at 345.44 125.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15095,7 +15088,6 @@
 	)
 	(label "Column 4"
 		(at 72.39 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15106,7 +15098,6 @@
 	)
 	(label "CHG"
 		(at 254 118.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15117,7 +15108,6 @@
 	)
 	(label "Column 1"
 		(at 64.77 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15128,7 +15118,6 @@
 	)
 	(label "SCL"
 		(at 54.61 196.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15139,7 +15128,6 @@
 	)
 	(label "SDA"
 		(at 266.7 200.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15150,7 +15138,6 @@
 	)
 	(label "Row 3"
 		(at 87.63 332.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15161,7 +15148,6 @@
 	)
 	(label "SDA"
 		(at 39.37 97.79 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15172,7 +15158,6 @@
 	)
 	(label "CCW"
 		(at 180.34 209.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15183,7 +15168,6 @@
 	)
 	(label "Column 1"
 		(at 31.75 337.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15194,7 +15178,6 @@
 	)
 	(label "2A"
 		(at 406.4 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15205,7 +15188,6 @@
 	)
 	(label "SDA"
 		(at 312.42 120.65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15216,7 +15198,6 @@
 	)
 	(label "CW2"
 		(at 234.95 207.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15227,7 +15208,6 @@
 	)
 	(label "Row 1"
 		(at 40.64 102.87 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15238,7 +15218,6 @@
 	)
 	(label "CCW2"
 		(at 62.23 153.67 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15249,7 +15228,6 @@
 	)
 	(label "CCW2"
 		(at 234.95 209.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15260,7 +15238,6 @@
 	)
 	(label "Column 3"
 		(at 54.61 337.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15271,7 +15248,6 @@
 	)
 	(label "NO2"
 		(at 199.39 207.01 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15282,7 +15258,6 @@
 	)
 	(label "SCL"
 		(at 266.7 203.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15292,8 +15267,7 @@
 		(uuid "676cf911-66df-4c77-843d-83988678258a")
 	)
 	(label "SCL"
-		(at 326.39 214.63 0)
-		(fields_autoplaced yes)
+		(at 328.93 218.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15304,7 +15278,6 @@
 	)
 	(label "Column 2"
 		(at 67.31 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15315,7 +15288,6 @@
 	)
 	(label "Row 2"
 		(at 87.63 312.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15326,7 +15298,6 @@
 	)
 	(label "Column 4"
 		(at 66.04 337.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15337,7 +15308,6 @@
 	)
 	(label "2A"
 		(at 83.82 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15348,7 +15318,6 @@
 	)
 	(label "Row 3"
 		(at 40.64 107.95 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15359,7 +15328,6 @@
 	)
 	(label "Column 5"
 		(at 77.47 337.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15370,7 +15338,6 @@
 	)
 	(label "INTA"
 		(at 83.82 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15381,7 +15348,6 @@
 	)
 	(label "Column 5"
 		(at 74.93 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15392,7 +15358,6 @@
 	)
 	(label "GPOUT"
 		(at 87.63 181.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15403,7 +15368,6 @@
 	)
 	(label "CHG"
 		(at 87.63 184.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15414,7 +15378,6 @@
 	)
 	(label "Column 0"
 		(at 20.32 337.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15424,8 +15387,7 @@
 		(uuid "991c4b1f-70f7-4674-84b6-551a289d5677")
 	)
 	(label "SDA"
-		(at 326.39 217.17 0)
-		(fields_autoplaced yes)
+		(at 328.93 220.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15436,7 +15398,6 @@
 	)
 	(label "BAT_SRN"
 		(at 254 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15447,7 +15408,6 @@
 	)
 	(label "OUT"
 		(at 256.54 97.79 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15458,7 +15418,6 @@
 	)
 	(label "VBUS"
 		(at 39.37 114.3 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15469,7 +15428,6 @@
 	)
 	(label "D_P"
 		(at 177.8 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15480,7 +15438,6 @@
 	)
 	(label "CCW"
 		(at 59.69 151.13 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15491,7 +15448,6 @@
 	)
 	(label "DEC4_6"
 		(at 83.82 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15502,7 +15458,6 @@
 	)
 	(label "INTA"
 		(at 87.63 191.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15513,7 +15468,6 @@
 	)
 	(label "RF"
 		(at 101.6 124.46 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15524,7 +15478,6 @@
 	)
 	(label "BAT"
 		(at 217.17 308.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15535,7 +15488,6 @@
 	)
 	(label "VBUS"
 		(at 228.6 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15546,7 +15498,6 @@
 	)
 	(label "VBUS"
 		(at 217.17 267.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15557,7 +15508,6 @@
 	)
 	(label "Row 2"
 		(at 40.64 105.41 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15568,7 +15518,6 @@
 	)
 	(label "SCL"
 		(at 39.37 95.25 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15579,7 +15528,6 @@
 	)
 	(label "VBUS_USB"
 		(at 200.66 308.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15590,7 +15538,6 @@
 	)
 	(label "BAT"
 		(at 290.83 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15601,7 +15548,6 @@
 	)
 	(label "VBUS_USB"
 		(at 175.26 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15612,7 +15558,6 @@
 	)
 	(label "Column 2"
 		(at 43.18 337.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15623,7 +15568,6 @@
 	)
 	(label "CW2"
 		(at 63.5 156.21 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15634,7 +15578,6 @@
 	)
 	(label "Row 1"
 		(at 87.63 292.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15645,7 +15588,6 @@
 	)
 	(label "NO2"
 		(at 87.63 186.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15656,7 +15598,6 @@
 	)
 	(label "Column 0"
 		(at 62.23 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15667,7 +15608,6 @@
 	)
 	(label "Column 3"
 		(at 69.85 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15678,7 +15618,6 @@
 	)
 	(label "SDA"
 		(at 54.61 199.39 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15689,7 +15628,6 @@
 	)
 	(label "DEC4_6"
 		(at 57.15 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15700,7 +15638,6 @@
 	)
 	(label "BAT_SRN"
 		(at 308.61 124.46 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15711,7 +15648,6 @@
 	)
 	(label "SCL"
 		(at 312.42 123.19 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15722,7 +15658,6 @@
 	)
 	(label "NO"
 		(at 87.63 189.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16243,7 +16178,7 @@
 	)
 	(global_label "3V3"
 		(shape input)
-		(at 335.28 226.06 0)
+		(at 337.82 229.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16253,7 +16188,7 @@
 		)
 		(uuid "dbb8fd1a-7a7b-4213-a6ef-94368f8780f6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 341.7728 226.06 0)
+			(at 344.3128 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21448,7 +21383,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 336.55 219.71 0)
+		(at 339.09 223.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21456,7 +21391,7 @@
 		(dnp no)
 		(uuid "39765008-e037-41d2-8ad6-911eecd2f54a")
 		(property "Reference" "#PWR069"
-			(at 336.55 226.06 0)
+			(at 339.09 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21465,7 +21400,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 338.582 223.52 0)
+			(at 341.122 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21474,7 +21409,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 336.55 219.71 0)
+			(at 339.09 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21483,7 +21418,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 336.55 219.71 0)
+			(at 339.09 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21492,7 +21427,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 336.55 219.71 0)
+			(at 339.09 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33030,7 +32965,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:F32Q-1A7H1-11012")
-		(at 299.72 194.31 0)
+		(at 302.26 198.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33039,7 +32974,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad56a3cb-1d48-47dc-8ef7-311c7c53c053")
 		(property "Reference" "J7"
-			(at 312.42 186.69 0)
+			(at 314.96 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33047,7 +32982,7 @@
 			)
 		)
 		(property "Value" "F32Q-1A7H1-11012"
-			(at 312.42 189.23 0)
+			(at 314.96 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33055,7 +32990,7 @@
 			)
 		)
 		(property "Footprint" "F32Q1A7H111012"
-			(at 321.31 289.23 0)
+			(at 323.85 293.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33065,7 +33000,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/f32q-f32t.pdf"
-			(at 321.31 389.23 0)
+			(at 323.85 393.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33075,7 +33010,7 @@
 			)
 		)
 		(property "Description" "Flex Connector, 0.50mm Pitch, Height 2.00mm, Right angle, Slider type, ZIF, Upper contact, 12 position , Without MYLAR"
-			(at 299.72 194.31 0)
+			(at 302.26 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33084,7 +33019,7 @@
 			)
 		)
 		(property "Height" "2.2"
-			(at 321.31 589.23 0)
+			(at 323.85 593.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33094,7 +33029,7 @@
 			)
 		)
 		(property "Mouser Part Number" "649-F32Q-1A7H1-11012"
-			(at 321.31 689.23 0)
+			(at 323.85 693.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33104,7 +33039,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Amphenol-Aorora/F32Q-1A7H1-11012?qs=xZ%2FP%252Ba9zWqZrPFQ7SNG9dA%3D%3D"
-			(at 321.31 789.23 0)
+			(at 323.85 793.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33114,7 +33049,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Amphenol Communications Solutions"
-			(at 321.31 889.23 0)
+			(at 323.85 893.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33124,7 +33059,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "F32Q-1A7H1-11012"
-			(at 321.31 989.23 0)
+			(at 323.85 993.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34295,7 +34230,7 @@
 				)
 			)
 		)
-		(property "Value" "MCHK1608T1R0MKN"
+		(property "Value" "4.7uH"
 			(at 308.102 81.28 0)
 			(effects
 				(font
@@ -35069,7 +35004,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 332.74 222.25 180)
+		(at 335.28 226.06 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -35077,7 +35012,7 @@
 		(dnp no)
 		(uuid "c58ea87f-ea5e-4945-b48a-861ee5730778")
 		(property "Reference" "C37"
-			(at 328.168 223.774 0)
+			(at 330.708 227.584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35086,7 +35021,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 326.39 220.726 0)
+			(at 328.93 224.536 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35095,7 +35030,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:Capacitor_0603"
-			(at 332.74 222.25 0)
+			(at 335.28 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35104,7 +35039,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 332.74 222.25 0)
+			(at 335.28 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35113,7 +35048,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 332.74 222.25 0)
+			(at 335.28 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
