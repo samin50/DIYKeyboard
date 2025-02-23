@@ -4,7 +4,7 @@
 
 ## Components Used
 ~~nRF52840:~~
-- Abondoned due to difficult-to-solder aQFN73 package, QFN40 loses USB pins.
+- Abandoned due to difficult-to-solder aQFN73 package, QFN40 loses USB pins.
 
 nRF52833:
 - BLE Enabled
@@ -24,13 +24,27 @@ BQ27441:
 - Fuel gauge for battery, reports battery level through columb counting.
 - Connects to nRF52840 via I2C.
 
-XC9291:
+~~XC9291:~~
 - Takes variable voltage of battery and USB-C and fixes to 3.3V for peripherals and nRF52840.
 - ~90% efficient. TPS62840 is ~91-95% efficient. (Vout = 3.3V @ 10mA)
+- Abandoned as far too small (learnt the hard way, used in v1)
+
+XCL240B:
+- Step-down converter for 5v rail to 3v3
+- Includes inductor, application circuit is very simple
+- 85% efficient
+- Includes CL discharge feature ensuring known output voltages
+
 
 XC9248:
-- Takes variable voltage of battery and USB-C and fixes to 5V for LEDs.
+- Boost converter for ~3v7 battery to 5V
 - ~95% efficient. (5V @ 400mA)
+
+XCL110A
+- Boost converter for ~3v7 battery to 5V
+- 610mA output current
+- Includes inductor, application circuit is very simple
+- 90% efficient
 
 ## Hardware Used
 Segger J-Link:
