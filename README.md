@@ -35,7 +35,6 @@ XCL240B:
 - 85% efficient
 - Includes CL discharge feature ensuring known output voltages
 
-
 XC9248:
 - Boost converter for ~3v7 battery to 5V
 - ~95% efficient. (5V @ 400mA)
@@ -45,6 +44,10 @@ XCL110A
 - 610mA output current
 - Includes inductor, application circuit is very simple
 - 90% efficient
+
+TPS2291
+- Load switch
+- Slide switch enables/disables this IC rather than actual power rail of the system for better stability
 
 ## Hardware Used
 Segger J-Link:
