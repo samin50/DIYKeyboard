@@ -1,5 +1,5 @@
-0.00    SCL         // I2C
-0.01    SDA         // I2C
+0.00    SCL         // I2C - Pulled up
+0.01    SDA         // I2C - Pulled up
 0.02    Column 4
 0.03    Column 5
 0.04    Row 0
@@ -18,12 +18,13 @@
 1.09    Row 2
 
 # IO Expander
-GPA0    NO
-GPA1    NO2
-GPA2    CHG         //Pullup
+P0    NO
+P1    NO2
+P2    CHG 
+P3    GPOUT
 
 # Devices on I2C SCL/SDA
-MCP23018 IO Expander
+TCA9537 IO Expander
 0.91 Inch 128x32 SSD1306
 Cirque trackpad
 BQ27441 fuel gauge

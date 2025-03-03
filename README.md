@@ -41,7 +41,7 @@ XC9248:
 
 XCL110A
 - Boost converter for ~3v7 battery to 5V
-- 610mA output current
+- 610mA output current 
 - Includes inductor, application circuit is very simple
 - 90% efficient
 
@@ -49,6 +49,20 @@ TPS2291
 - Load switch
 - Slide switch enables/disables this IC rather than actual power rail of the system for better stability
 
+~~74AHCT1G125DCKR:~~ SN74AHCT1G125DCKR
+- 4 channel level shifter, replaced for single channel level shifter for space savings
+- Used to drive LEDs
+
+~~MCP23018T~~ TCA9537DGSR
+- 16 channel GPIO expander, replaced for 4 channel expander for space constraints
+- Needed due to nRF528333 QDAA package not having enough GPIOs
+
 ## Hardware Used
 Segger J-Link:
 - Used to program nRF MCUs
+
+## Notes
+
+
+## Useful Videos
+https://www.youtube.com/watch?v=M6_an34wQJk
