@@ -2,6 +2,8 @@
 
 <img src="imgs/keyboard-layout.png" width=500>
 
+<img src="imgs/Schematic.png" width=500>
+
 ## Components Used
 ~~nRF52840:~~
 - Abandoned due to difficult-to-solder aQFN73 package, QFN40 loses USB pins.
@@ -18,7 +20,10 @@ USB6B1:
 
 BQ24072:
 - Handles switching between USB C power and battery power. Also manages battery charging.
-- Handles setting current limit from USB-C; set to 500mA to adhere to standard.
+- Handles setting current limits:
+    - 1.5A charging current limit for battery.
+    - 3A input current for entire load.
+    - Will dynamically adjust current draw to what is available.
 
 BQ27441:
 - Fuel gauge for battery, reports battery level through columb counting.

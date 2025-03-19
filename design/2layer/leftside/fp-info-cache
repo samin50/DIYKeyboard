@@ -1,4 +1,4 @@
-25752727261534275
+25764909647674330
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -90867,6 +90867,13 @@ Resettable Fuse
 2
 2
 SamacSys_Parts
+1286ASH1R0MP2
+0806 (2016) T=1.2mm
+Inductor
+0
+2
+2
+SamacSys_Parts
 0781271220
 0781271220-2
 Connector
@@ -90958,6 +90965,13 @@ Inductor
 2
 2
 SamacSys_Parts
+KWEELP41RUS1U13K6L3X4X5R18
+0603 (1608 Metric)_2025-1
+LED
+0
+2
+2
+SamacSys_Parts
 NE555DR
 D (R-PDSO-G8)
 Integrated Circuit
@@ -91021,6 +91035,13 @@ Integrated Circuit
 13
 13
 SamacSys_Parts
+SOP50P490X110-10N
+VSSOP-8_----
+Integrated Circuit
+0
+10
+10
+SamacSys_Parts
 SOP65P640X110-14N
 TSSOP 14
 Integrated Circuit
@@ -91035,12 +91056,33 @@ Integrated Circuit
 24
 24
 SamacSys_Parts
+SOT65P210X110-5N
+sot-5-
+Integrated Circuit
+0
+5
+5
+SamacSys_Parts
+SOT65P210X110-6N
+SC-88 SC70-6 CASE 419AD
+Integrated Circuit
+0
+6
+6
+SamacSys_Parts
 SOT95P280X145-5N
 DBV0005A
 Integrated Circuit
 0
 5
 5
+SamacSys_Parts
+SOT95P280X145-6N
+DBV0006A
+Integrated Circuit
+0
+6
+6
 SamacSys_Parts
 SRN3015C4R7M
 3015
@@ -91069,6 +91111,13 @@ Integrated Circuit
 0
 6
 6
+SamacSys_Parts
+XCL103D503CRG
+CL-2025-02
+Integrated Circuit
+0
+9
+9
 ScottoKeebs_Alps
 Alps
 Alps/keyswitch
