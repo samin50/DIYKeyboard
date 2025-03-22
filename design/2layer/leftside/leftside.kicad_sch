@@ -39706,8 +39706,8 @@
 				)
 			)
 		)
-		(property "Value" "600mA"
-			(at 180.594 68.326 90)
+		(property "Value" "6A"
+			(at 180.34 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)

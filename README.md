@@ -39,14 +39,16 @@ XCL240B:
 - Includes inductor, application circuit is very simple
 - 85% efficient
 - Includes CL discharge feature ensuring known output voltages
+- 1A output
 
-XC9248:
+~~XC9248:~~
 - Boost converter for ~3v7 battery to 5V
 - ~95% efficient. (5V @ 400mA)
+- Replaced in favour of boost converter with built-in inductor
 
 XCL110A
 - Boost converter for ~3v7 battery to 5V
-- 610mA output current 
+- 1A output current 
 - Includes inductor, application circuit is very simple
 - 90% efficient
 
