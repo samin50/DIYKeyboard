@@ -9,3 +9,5 @@ test/
 _autosave-*
 *gerb/
 -cache
+-bak
+.log

@@ -52567,7 +52567,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C24"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "8e6970bd-4425-4043-a34a-a5a4a3aa439f")
@@ -52580,7 +52580,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "9fc473e9-3202-4260-94ca-5fdb72fa254a")
@@ -52720,7 +52720,7 @@
 			(uuid "207d66c3-d190-43fb-9255-f4d22eba53c3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "7a70feef-19bd-4328-b6fa-e39b5da2468c")
 			(effects
@@ -69262,7 +69262,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C43"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "b4014c1c-4f64-458d-bda9-091bdba8574e")
@@ -69275,7 +69275,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "bb42dc92-a914-4e05-8318-19cb2186cb24")
@@ -69415,7 +69415,7 @@
 			(uuid "e205abc9-978b-4967-a79d-13e2c219dc82")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "15fc492a-99c8-47f8-83ce-93ce00fecf1e")
 			(effects
@@ -72119,7 +72119,7 @@
 		(descr "CL-2025-02")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC5"
-			(at 0 0.063 360)
+			(at 0 0.063 0)
 			(layer "B.SilkS")
 			(uuid "d9e7fe74-557a-4ed6-b28b-c25cb69a469f")
 			(effects
@@ -72131,7 +72131,7 @@
 			)
 		)
 		(property "Value" "XCL110A503KR-G"
-			(at 0 0.063 360)
+			(at 0 0.063 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "c60e1237-44cf-40c5-b739-92e1f91b2016")
@@ -72144,7 +72144,7 @@
 			)
 		)
 		(property "Footprint" "XCL103D503CRG"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "292a8bbf-6624-4595-9da9-765d2ca76b61")
@@ -72157,7 +72157,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.torexsemi.com/system/files/series/xcl109.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "36cf9223-745b-4c81-a490-73867959b5db")
@@ -72170,7 +72170,7 @@
 			)
 		)
 		(property "Description" "1.0A, Inductor Built-in Step-up DC/DC Converters"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "760ca383-f267-4d2a-bc9e-05c9628201f8")
@@ -72379,7 +72379,7 @@
 			(uuid "bee5524c-8b37-4ac7-adec-7a78014978e6")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0.063 360)
+			(at 0 0.063 0)
 			(layer "B.Fab")
 			(uuid "206eb44c-cf9b-425f-85ca-7639b33b3c48")
 			(effects
@@ -76240,7 +76240,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C26"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "2a85720e-bb2d-4361-865f-5836393aad4e")
@@ -76253,7 +76253,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "467fede3-c56b-4503-a825-c59749d5dde5")
@@ -76393,7 +76393,7 @@
 			(uuid "4293feba-0ab2-4ab0-8413-4f86d6d4b847")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "c66d9878-8989-40cb-88b1-3c4312f41c4e")
 			(effects
