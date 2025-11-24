@@ -69,7 +69,8 @@ Segger J-Link:
 - Used to program nRF MCUs
 
 ## Notes
-
+USB Data Impedance Calculator:
+http://www.finetune.co.jp/~lyuka/technote/cbcpw/edge-coupled-cbcpw.html
 
 ## Useful Videos
 https://www.youtube.com/watch?v=M6_an34wQJk
