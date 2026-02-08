@@ -8,14 +8,14 @@
 
 <img src="imgs/Schematic.png" width=500>
 
-This project is a **custom, battery-powered, Bluetooth mechanical keyboard** designed as a **2-layer PCB** and manufactured by **JLCPCB**.  
+This project is a **custom, battery-powered, split-layout, Bluetooth mechanical keyboard** designed as a **2-layer PCB** and manufactured by **JLCPCB**.  
 The design has evolved through multiple iterations; several components were selected, rejected, and replaced based on real-world assembly, soldering, space, and efficiency constraints. Those learnings are intentionally preserved here.
 
 ---
 
 ## High-Level Goals
 
-- 24-key mechanical switch matrix (with diodes)
+- 31/32-key mechanical switch matrix per side
 - Bluetooth Low Energy (BLE)
 - USB-C for charging and USB data
 - Li-ion battery powered
@@ -36,15 +36,18 @@ The design has evolved through multiple iterations; several components were sele
 - QFN40 variant loses USB pins
 - Rejected despite strong feature set
 
-### nRF52833 (selected)
+### nRF52833 (selected) Config 5
 - BLE enabled
 - Supports I²C on **any pins**
 - **Supports USB data connection**
 - QFN40 package is realistically hand-solderable
 - Extreme battery capability
 - GPIO count is limited → requires an I²C GPIO expander
+- DCDCEN improves battery life significantly
 
 <img src="imgs/nrf82833%20ref.jpg" width=500>
+
+<img src="imgs/config5.png" width=500>
 
 ---
 
@@ -57,7 +60,7 @@ The design has evolved through multiple iterations; several components were sele
 
 ---
 
-## Power Architecture (Key Design Area)
+## Power Architecture
 
 ### Charger & Power Path
 
@@ -66,10 +69,9 @@ The design has evolved through multiple iterations; several components were sele
 - Manages **single-cell Li-ion charging**
 - Integrated power-path management (system can run while charging)
 - Current limits:
-  - **1.5 A battery charge current**
-  - **3 A input current for entire load**
+  - **890mA battery charge current**
+  - **860mA input current for entire load**
 - Dynamically adjusts current draw based on source capability
-- OUT pin provides ~4.4–4.5 V (not true 5 V)
 
 **Lessons learned**
 - OUT voltage requires **boost conversion** for 5 V LEDs
@@ -100,13 +102,19 @@ The design has evolved through multiple iterations; several components were sele
 - Rejected because the package was **far too small to assemble**
 - Used in v1 — valuable lesson learned
 
-#### XCL240B (selected)
+#### ~~XCL240B~~ (abandoned)
 - Step-down converter from ~5 V to 3.3 V
 - Integrated inductor → simple application circuit
 - ~85% efficient
 - 1 A output
+- 90% 5V rail to 85% 3.3V rail, is only 76.5% efficient
 - Includes **CL discharge**, ensuring known output voltage on power-down
+- Abandoned in favour of more efficient buck-boost converter straight from battery
+
+#### TPS63051 (selected)
 - Powers MCU, OLED, trackpad, GPIO expander, fuel gauge
+- Buck-boost converter
+- ~90% efficient in battery input range
 
 ---
 
@@ -143,12 +151,13 @@ The design has evolved through multiple iterations; several components were sele
 - 16-channel I²C GPIO expander
 - Too large for space-constrained design
 
-### TCA9537DGSR (selected)
+### ~~~TCA9537DGSR~~~ (replaced)
 - 4-channel I²C GPIO expander
+- Not enough outputs as keys expanded
+
+### MCP23009 (selected)
+- 8-channel I²C GPIO expander
 - Chosen due to limited GPIO on nRF52833 QFN40
-- Provides:
-  - Encoder inputs
-  - Charger status signals
 - Supports interrupt output to MCU
 
 ---
@@ -200,6 +209,8 @@ The design has evolved through multiple iterations; several components were sele
 ### JLCPCB Reference
 PCB capabilities and limits:
 - https://jlcpcb.com/capabilities/pcb-capabilities
+- https://jlc3dp.com/help/answers/detail/15-various-stackups
+<img src="imgs/USB.png" width=500>
 
 ### USB Differential Impedance Tool
 - http://www.finetune.co.jp/~lyuka/technote/cbcpw/edge-coupled-cbcpw.html
