@@ -10,6 +10,10 @@ _autosave-*
 *gerb/
 -cache
 -bak
-.log
+*.log
 *-cache
 *-bak
+.vscode
+.kanbn
+.history
+backups
