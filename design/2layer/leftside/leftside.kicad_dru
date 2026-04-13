@@ -3,3 +3,7 @@
 (constraint clearance (min 1.0mm))
 (condition "(A.NetClass == 'USB_DiffPair') && (B.Type == 'zone')")
 )
+(rule "RFClearance"
+(constraint clearance (min 0.1mm))
+(condition "(A.NetClass == 'ANT') && (B.Type == 'zone')")
+)

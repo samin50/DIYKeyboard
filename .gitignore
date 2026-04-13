@@ -11,3 +11,5 @@ _autosave-*
 -cache
 -bak
 .log
+*-cache
+*-bak
