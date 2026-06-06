@@ -8400,7 +8400,7 @@
 	)
 	(text "BLE Enabled - QFN40 Config 3\n"
 		(exclude_from_sim no)
-		(at 69.85 34.29 0)
+		(at 69.85 34.036 0)
 		(effects
 			(font
 				(size 3 3)
