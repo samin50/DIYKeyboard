@@ -17727,7 +17727,7 @@
 		(uuid "90914e73-63d8-4418-a173-160f5e570b88")
 	)
 	(label "NO2"
-		(at 64.77 54.61 0)
+		(at 62.23 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18037,7 +18037,7 @@
 		(uuid "e655c8ab-2f07-4d2c-aab7-7dd908d65320")
 	)
 	(label "LED"
-		(at 62.23 52.07 0)
+		(at 64.77 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42668,7 +42668,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 100.33 360.68 0)
 			(hide yes)
 			(show_name no)
