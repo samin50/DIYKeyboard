@@ -91,8 +91,8 @@
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
-        "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_issues": "ignore",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -105,7 +105,7 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "ignore",
+        "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
@@ -118,12 +118,12 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "error",
-        "track_not_centered_on_via": "ignore",
+        "track_not_centered_on_via": "warning",
         "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
-        "tuning_profile_track_geometries": "ignore",
+        "tuning_profile_track_geometries": "warning",
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
@@ -806,7 +806,7 @@
         "uuid": "0454547d-f090-46a4-b0ab-f58aec48f156"
       }
     ],
-    "used_designators": "",
+    "used_designators": "D1-63,#PWR13-14,#PWR21,#PWR23,#PWR28,#PWR30-31,#PWR33-38,#PWR41-42,#PWR50,#PWR54,#PWR100,#PWR104,#PWR122-123,#PWR132-182,C2-4,C21,C28-36,C38-39,C41-45,IC7,SR10",
     "variants": []
   },
   "sheets": [
