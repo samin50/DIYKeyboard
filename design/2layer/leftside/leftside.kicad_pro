@@ -17,7 +17,7 @@
         "copper_text_upright": false,
         "courtyard_line_width": 0.05,
         "dimension_precision": 4,
-        "dimension_units": 3,
+        "dimension_units": 2,
         "dimensions": {
           "arrow_length": 1270000,
           "extension_offset": 500000,
@@ -126,7 +126,7 @@
         "tuning_profile_track_geometries": "warning",
         "unconnected_items": "error",
         "unresolved_variable": "error",
-        "via_dangling": "warning",
+        "via_dangling": "error",
         "zones_intersect": "error"
       },
       "rules": {
@@ -806,7 +806,7 @@
         "uuid": "0454547d-f090-46a4-b0ab-f58aec48f156"
       }
     ],
-    "used_designators": "D1-63,#PWR13-14,#PWR21,#PWR23,#PWR28,#PWR30-31,#PWR33-38,#PWR41-42,#PWR50,#PWR54,#PWR100,#PWR104,#PWR122-123,#PWR132-182,C2-4,C21,C28-36,C38-39,C41-45,IC7,SR10",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
