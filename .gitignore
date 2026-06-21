@@ -13,8 +13,11 @@ _autosave-*
 *.log
 *-cache
 *-bak
-.vscode
-.kanbn
+.vscode/
+.kanbn/
+.claude/
 .history
 backups
 design/2layer/script.py
+production
+merged
