@@ -15,9 +15,10 @@ _autosave-*
 *-bak
 .vscode/
 .kanbn/
-.claude/
 .history
 backups
 design/2layer/script.py
 production
 merged
+.venv
+workspace.py
