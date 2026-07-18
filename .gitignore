@@ -22,3 +22,4 @@ production
 merged
 .venv
 workspace.py
+.~lock*

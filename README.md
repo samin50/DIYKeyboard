@@ -95,9 +95,10 @@ The design has evolved through multiple iterations; several components were sele
 ---
 
 ### 3.3 V Regulation (System Rail)
+- Buck regulator for battery to 3.3 V
+- Powers MCU, OLED, trackpad, GPIO expander, fuel gauge
 
 #### ~~XC9291~~ (abandoned)
-- Buck regulator for battery / USB to 3.3 V
 - ~90% efficient
 - Rejected because the package was **far too small to assemble**
 - Used in v1 — valuable lesson learned
@@ -111,27 +112,24 @@ The design has evolved through multiple iterations; several components were sele
 - Includes **CL discharge**, ensuring known output voltage on power-down
 - Abandoned in favour of more efficient buck-boost converter straight from battery
 
-#### TPS63051 (selected)
-- Powers MCU, OLED, trackpad, GPIO expander, fuel gauge
+#### ~~TPS63051~~ (replaced)
 - Buck-boost converter
 - ~90% efficient in battery input range
+- Replaced as out of stock on Mouser + Digikey
 
+#### TPS63031
+- ~96% efficient in battery input range
 ---
 
 ### 5 V Rail (LEDs)
-
-#### ~~XC9248~~ (replaced)
 - Boost converter from ~3.7 V to 5 V
-- ~95% efficient (5 V @ 400 mA)
-- Replaced to simplify layout
+- Powers SK6803 LEDs
 
-#### XCL110A (selected)
-- Boost converter from ~3.7 V battery to 5 V
+#### XCL110A
 - Integrated inductor
 - Simple application circuit
 - 1 A output
 - ~90% efficient
-- Powers SK6803 LEDs
 
 ---
 

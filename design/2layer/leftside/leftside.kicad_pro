@@ -101,9 +101,9 @@
         "missing_tuning_profile": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
-        "npth_inside_courtyard": "ignore",
+        "npth_inside_courtyard": "error",
         "padstack": "warning",
-        "pth_inside_courtyard": "ignore",
+        "pth_inside_courtyard": "error",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
@@ -806,7 +806,7 @@
         "uuid": "0454547d-f090-46a4-b0ab-f58aec48f156"
       }
     ],
-    "used_designators": "",
+    "used_designators": "IC4,#FLG1,#PWR39-40,#PWR74,#PWR77-80,PC1,PC3,PC27,PC47,PL5",
     "variants": []
   },
   "sheets": [
