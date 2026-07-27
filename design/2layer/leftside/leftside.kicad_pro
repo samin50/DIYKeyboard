@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.8,
-          "width": 0.2
+          "height": 0.95,
+          "width": 0.9
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -512,7 +512,8 @@
       "ScottoKeebs",
       "SamacSys_Parts",
       "SamacSys",
-      "LibraryLoader"
+      "LibraryLoader",
+      "Snapeda"
     ]
   },
   "meta": {
@@ -632,7 +633,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "C:\\Users\\shahe\\Desktop\\Personal Files\\Projects\\3DPrinting\\DIY Mechanical Keyboard\\design\\leftside\\leftside.csv",
+    "bom_export_filename": "..\\leftside\\leftside.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -748,6 +749,18 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Part Number",
+          "name": "Arrow Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Price/Stock",
+          "name": "Arrow Price/Stock",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -806,7 +819,7 @@
         "uuid": "0454547d-f090-46a4-b0ab-f58aec48f156"
       }
     ],
-    "used_designators": "IC4,#FLG1,#PWR39-40,#PWR74,#PWR77-80,PC1,PC3,PC27,PC47,PL5",
+    "used_designators": "C2-3,C21,C28,C30-36,C38,C41-43,C46,#PWR21,#PWR23,#PWR28,#PWR30,#PWR32-33",
     "variants": []
   },
   "sheets": [
