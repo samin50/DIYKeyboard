@@ -4,9 +4,11 @@
 
 ## Current Design
 
-<img src="imgs/keyboard-layout.png" width=500>
+<img src="imgs/render.png" width=500>
 
 <img src="imgs/Schematic.png" width=500>
+
+<img src="imgs/v1.3.png" width=500>
 
 This project is a **custom, battery-powered, split-layout, Bluetooth mechanical keyboard** designed as a **2-layer PCB** and manufactured by **JLCPCB**.  
 The design has evolved through multiple iterations; several components were selected, rejected, and replaced based on real-world assembly, soldering, space, and efficiency constraints. Those learnings are intentionally preserved here.
@@ -208,10 +210,11 @@ The design has evolved through multiple iterations; several components were sele
 PCB capabilities and limits:
 - https://jlcpcb.com/capabilities/pcb-capabilities
 - https://jlc3dp.com/help/answers/detail/15-various-stackups
-<img src="imgs/USB.png" width=500>
 
 ### USB Differential Impedance Tool
 - http://www.finetune.co.jp/~lyuka/technote/cbcpw/edge-coupled-cbcpw.html
+
+<img src="imgs/USB.png" width=500>
 
 ---
 
