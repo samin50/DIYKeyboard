@@ -19,7 +19,6 @@ _autosave-*
 backups
 design/2layer/script.py
 production
-merged
 .venv
 workspace.py
 .~lock*
